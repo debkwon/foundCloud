@@ -27,6 +27,8 @@ or Giphy's: https://github.com/Giphy/GiphyAPI
 
 Built with Node/Express + SoundCloud API + Giphy API
 
+![search_example](https://cloud.githubusercontent.com/assets/8889161/25353741/51f5a85a-28fe-11e7-9a8f-c5f49cfa97ae.png)
+
 Routes
 ---------
 Currently, there is only one route, '/'
@@ -42,6 +44,8 @@ Future Implementations
 In future iterations, the track tags would be displayed as text and the GIF would appear only on a hover over that specific tag, along with a clip of that song.
 
 Needs additional testing, including more frontend testing and covering the API calls.
+
+
 
 
 
