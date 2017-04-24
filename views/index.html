@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class='search-container'>
+    <label for='search-bar'></label>
+    <input name="search" type="text" placeholder="Search SoundCloud..." id='search-bar' />
+    <button type='button' id='search-button'><i class="fa fa-search search-icon"></i></button>
+  </div>
+
+  <div class='search-results'>
+  </div>
+
+  <aside class='tags'>
+  </aside>
+
+{% endblock %}
+

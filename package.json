@@ -1,0 +1,35 @@
+{
+  "name": "foundCloud",
+  "version": "1.0.0",
+  "description": "Discover new music through SoundCloud",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e html,js,css ./app.js",
+    "test": "mocha --watch test/**.test.js "
+  },
+  "keywords": "['music', 'tracks', 'discover', 'api', 'soundcloud', 'artists', 'search']",
+  "author": "Deborah Kwon <deborah.m.kwon@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "chai-dom": "^1.4.3",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "method-override": "^2.3.8",
+    "mocha": "^3.2.0",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "nunjucks": "^3.0.0",
+    "pg": "^6.1.5",
+    "pg-hstore": "^2.3.2",
+    "sinon": "^2.1.0",
+    "supertest": "^3.0.0",
+    "supertest-as-promised": "^4.0.2"
+  },
+  "devDependencies": {
+    "jsdom": "^9.12.0",
+    "mocha-jsdom": "^1.1.0"
+  }
+}
